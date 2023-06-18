@@ -1,8 +1,8 @@
 {
   "redirects": [
     { 
-      "source": "/api/(.*)", 
-      "destination": "http://120.48.135.189/api/$1", 
+      "source": "/d/:path*", 
+      "destination": "http://120.48.135.189/d/:path*", 
       "statusCode": 301 
     }
   ],
