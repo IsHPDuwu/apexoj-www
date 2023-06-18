@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    { 
+      "source": "/api/(.*)", 
+      "destination": "http://120.48.135.189/api/$1", 
+      "statusCode": 301 
+    }
+  ],
   "routes": [
     {
       "src": "/(.*)",
